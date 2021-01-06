@@ -33,7 +33,7 @@ a {
     color: rgb(97, 95, 95);
    }
    .home{
-    background: lightslategrey;
+       background: rgb(230, 72, 25);
     border-radius: 7px;
    color: white;}
    h1{
@@ -42,6 +42,7 @@ a {
    }
    h2{
        font-size: 40px;
+       color: rgb(54, 54, 54);
    }
    h3{
        font-weight: 900;
@@ -77,6 +78,7 @@ a {
    .sec1{
        width: 100%;
        height: 70vh;
+       margin-left: 8%;
    }
    .sec2{
     width: 100%;
@@ -135,20 +137,36 @@ a {
        text-align: center;
        color: rgb(54, 54, 54);     
    }
-  .sec4{
-      background-image: url(images/bg.png);
-      background-repeat: no-repeat;
+   .prb{
+    height: 55vh;
+    background-image: url("images/bg.png");
     background-position: center;
-    background-size: 65%;
-      display: flex;
-  }
+    background-size: 70% 270px;
+    background-repeat: no-repeat;
+    display: flex;
+   }
 #work{
-    margin-left: 280px;
-    margin-top: 60px;
-    color: white;
+    float: left;
+    margin-left: 300px;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
 }
 .but{
-    width: 85px;
-   display: inline-block;
    float: left;
+   margin-top: 170px;
+   margin-left: 350px;
+   font-size: 15px;
+   background: linear-gradient(45deg,rgb(255, 81, 0),orange);
+    
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: white;
+}
+.footer{
+    text-align: center;
+    font-size: 30px;
+}
+#stay{
+    text-align: center;
+    font-size: 20px;
 }
