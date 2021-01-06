@@ -135,4 +135,20 @@ a {
        text-align: center;
        color: rgb(54, 54, 54);     
    }
-  
+  .sec4{
+      background-image: url(images/bg.png);
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+      display: flex;
+  }
+#work{
+    margin-left: 280px;
+    margin-top: 60px;
+    color: white;
+}
+.but{
+    width: 85px;
+   display: inline-block;
+   float: left;
+}
