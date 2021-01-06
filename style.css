@@ -76,3 +76,28 @@ a {
     width: 100%;
     height: 100vh;
    }
+   .box{
+       box-shadow: 10px 10px 40px rgb(231, 231, 231);
+       border-radius: 6px;
+       height: 60%;
+   }
+   .halfw{
+    width: 20%;
+    float: left;
+    margin-left: 6%;
+    padding: 2%;
+   }
+   .halfw img{
+       width: 100%;
+   }
+   #bac{
+       background-color: rgb(247, 247, 247);
+   }
+   #latest{
+       text-align: center;
+       color: rgb(56, 56, 56);
+       font-size: 40px;
+   }
+   #latest-span{
+       color: rgb(230, 72, 25);
+   }
