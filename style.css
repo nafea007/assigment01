@@ -77,9 +77,10 @@ a {
     height: 100vh;
    }
    .box{
-       box-shadow: 10px 10px 40px rgb(231, 231, 231);
+       box-shadow: 10px 10px 30px rgb(201, 201, 201);
        border-radius: 6px;
        height: 60%;
+       background: white;
    }
    .halfw{
     width: 20%;
@@ -91,7 +92,8 @@ a {
        width: 100%;
    }
    #bac{
-       background-color: rgb(247, 247, 247);
+       background-color: rgba(243, 242, 242, 0.61);
+       float: left;
    }
    #latest{
        text-align: center;
@@ -100,4 +102,7 @@ a {
    }
    #latest-span{
        color: rgb(230, 72, 25);
+   }
+   p{
+       text-align: left;
    }
